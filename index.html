@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How to use HTML and CSS in Atom</title>
+    <script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+    <link rel="stylesheet" href="css_test.css">
+  </head>
+  <body>
+<h1> HTML and CSS </h1>
+
+  <div class="c1">
+    <p> This is the test page for learning html and css.</p>
+    </div>
+<h3>&#9675; Prepare HTML and CSS by Atom </h3>
+<p>&#149 Open Atom<br>
+&#149 Create a new file by Ctrl + N <br>
+&#149 Click "Pain text" and apoint HTML <br>
+&#149 Type "ht" then Enter <br>
+&#8594; HTML templates will be writen automatically.<br>
+&#149 Edit HTML file <br> </p>
+<p>Note; HTML results can be checked in Atom by Ctrl + Shift + H (&#8594; HTML preview will be activated.)</p>
+
+<h3>&#9675; Instlation of CSS to HTML </h3>
+  <p>There are three ways.</p>
+
+<p>&#9312; Install extra CSS file<br>
+  This is the most general way to input CSS to HTML.<br>
+  &#149  write next code below</p>
+
+<p>&#60;&#47;title&#62;<br>
+&#60;link rel=“stylesheet” href=“.css”&#62;</p>
+
+Note: rel stands for relationship of between the installing file and HTML
+(Extra CSS is calle stylesheet in HTML).<br>
+
+href requires css file name.
+
+<p>&#149; Prepare extra CSS file.</p>
+
+This way is useful when installing same css file to some HTML files.
+
+
+<p>&#9313; Write CSS in &#60;style&#62; tag in &#60;head&#62; of HTML<br>
+
+&#149 write css codes which supposed to be written in extra css in above method, then bind them with &#60;style&#62; tags.</p>
+
+
+<p>&#9314; Write css in line of HTML</p>
+
+<p>Example
+&#60;<i>tag name</i> style = “color:orange”&#62;<i>text text text</i> &#60;&#47;<i>tag name</i>&#62; </p>
+
+
+<h3>&#9675; Examples of tag</h3>
+
+<p>&#60;h1&#62;-&#60;h6&#62;: Head lines (as the numbers is going up, the letter sizes is going down)<br>
+&#60;p&#62;: paragraphs<br>
+&#60;b&#62;: <b>bold letters</b><br>
+&#60;i&#62;: <i>italic</i> <br>
+&#60;u&#62;: <u>under line</u><br>
+&#60;big&#62;: <big>larger letters</big><br>
+&#60;small&#62;: <small>small letters</small><br>
+etc.</p>
+
+<p><a href = "http://www.htmq.com/html/indexm.shtml">HTMLタグリファレンス(目的別)</a></P>
+
+<h3>Examples of HTML codes</h3>
+<a href = "https://weblan3.com/html/special-character">HTMLで使える特殊文字の一覧表と文字コードの書き方</a><br>
+<a href = "https://weblan3.com/html/special-character" target="_blank">HTMLで使える特殊文字の一覧表と文字コードの書き方</a>
+<h3>div and class</h3>
+Div is used to point out a specific area in HTML, and class make divs recognizable.
+
+<p>Ex.</p>
+
+&#149;HTML<br>
+
+<p>&#60;div class = “c1”&#62;<br>
+This is class 1.<br>
+&#60;/div&#62;</p>
+
+<p>&#60;div class = “c2”&#62;<br>
+This is class 2.<br>
+&#60;/div&#62;</p>
+
+<p>&#149;CSS<br>
+c1{<br>
+color : red;<br>
+}</p>
+
+<p>c2{<br>
+color : orange;<br>
+}</p>
+
+
+<p>Then, c1 and c2 will be red and orange, respectively.
+
+Note; there is a similar code; &#60;div id = “something ”&#62;. Id names cannot be used in HTML more than two times, whereas class names can be used as many times as you want.</p>
+
+
+<h3>Examples of CSS code</h3>
+
+<a href = "http://www.htmq.com/style/">スタイルシートリファレンス</a><br>
+
+
+<h3>Writing mathematical equations in HTML(MathJax)</h3>
+
+
+
+  </body>
+</html>
